@@ -20,7 +20,7 @@ public class StepDefinition {
 			// Write code here that turns the phrase above into concrete actions
 	
 			try {
-				System.setProperty("webdriver.chrome.driver", "./lib/chromedriver");
+				System.setProperty("webdriver.chrome.driver", ".\\lib\\new\\chromedriver.exe");
 				driver = new ChromeDriver();
 			} catch (Exception ex) {
 				System.out.println("Error in 'Go to user login page' Method.");
