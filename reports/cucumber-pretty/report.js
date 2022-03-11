@@ -10,7 +10,7 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@test1"
+      "name": "@test1-FindTheUser"
     }
   ]
 });
@@ -100,7 +100,7 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@test1"
+      "name": "@test1-FindTheUser"
     }
   ]
 });
@@ -130,7 +130,7 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@test2"
+      "name": "@test2-SendMessageToTheUser"
     }
   ]
 });
@@ -240,7 +240,7 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@test2"
+      "name": "@test2-SendMessageToTheUser"
     }
   ]
 });
@@ -310,7 +310,7 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@test3"
+      "name": "@test3-AssertFinalMessageHasBeenSent"
     }
   ]
 });
@@ -424,7 +424,7 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@test3"
+      "name": "@test3-AssertFinalMessageHasBeenSent"
     }
   ]
 });

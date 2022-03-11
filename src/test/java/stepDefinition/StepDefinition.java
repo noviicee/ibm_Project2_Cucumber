@@ -194,8 +194,10 @@ public class StepDefinition {
 				WebElement obj = driver.findElement(By.xpath("//*[@id='send_message']/div"));
 				String text = obj.getText();
 				Assert.assertTrue(text.contains("Your message has been sent"));
-				System.out.println("Tests Passed.");
+				System.out.println("Program Completed.");
 				System.out.println("Resultant message was:" + text);
+				System.out.println("Closing windows...");
+				driver.quit();
 	
 			} catch (Exception ex) {
 				System.out.println("Error in 'display_value' Method");
